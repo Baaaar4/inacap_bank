@@ -23,3 +23,27 @@ Correr en consola en directorio raíz. Necesario tener Node/NPM instalado.
 - npm install
 - npm run dev
 
+## Pruebas Unitarias
+
+-src/components/Button.test.js
+
+Este archivo prueba el componente Button. Las pruebas verifican que el botón se renderiza correctamente y que se llama al manejador de clics cuando se hace clic en el botón.
+
+-src/components/AppBar.test.jsx
+Este archivo prueba el componente AppBar. Las pruebas incluyen la verificación de la renderización de los elementos de la barra de aplicaciones, la apertura y cierre de menús, y la navegación a diferentes rutas.
+
+-src/AuthProvider.test.jsx
+Este archivo prueba el componente AuthProvider. Las pruebas incluyen la creación de usuarios, inicio de sesión y cierre de sesión utilizando Firebase Authentication.
+
+## Ejecutar todas las pruebas
+
+npm test
+
+## Cobertura de Pruebas
+npm test -- --coverage
+
+## Pruebas Específicas
+npm test -- <test-file>
+
+
+
